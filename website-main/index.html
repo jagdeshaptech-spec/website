@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FootFlex - Step into Style (Static)</title>
+    
+    <!-- Using Poppins font for a modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Foot<span class="logo-accent">Flex</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#products">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                <!-- Cart counter is now static (0) -->
+                <span class="cart-counter" id="cart-counter">0</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 12.82a2 2 0 0 0 2 1.18h9.72a2 2 0 0 0 2-1.18L23 6H6"></path>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>New Arrivals: The <span class="accent-text">Flex Collection</span></h1>
+            <p>Experience unmatched comfort and style for every stride.</p>
+        </div>
+    </section>
+
+    <!-- Product Grid Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2>Our Latest Sneakers</h2>
+            
+            <div class="product-grid">
+
+                <!-- Product Card 1 -->
+                <div class="product-card" data-price="99.99" data-name="Flex Runner">
+                    <div class="product-image" style="background-color: #fce7f3;">
+                        <span class="placeholder-text">Flex Runner (Pink)</span>
+                    </div>
+                    <h3 class="product-name">The Flex Runner</h3>
+                    <p class="product-category">Performance</p>
+                    <p class="product-price">$99.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="product-card" data-price="129.50" data-name="SkyWalker High">
+                    <div class="product-image" style="background-color: #e0f2fe;">
+                        <span class="placeholder-text">SkyWalker High (Blue)</span>
+                    </div>
+                    <h3 class="product-name">SkyWalker High</h3>
+                    <p class="product-category">Street Style</p>
+                    <p class="product-price">$129.50</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="product-card" data-price="75.00" data-name="Classic Canvas">
+                    <div class="product-image" style="background-color: #e5e7eb;">
+                        <span class="placeholder-text">Classic Canvas (Gray)</span>
+                    </div>
+                    <h3 class="product-name">Classic Canvas</h3>
+                    <p class="product-category">Everyday</p>
+                    <p class="product-price">$75.00</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="product-card" data-price="180.00" data-name="Carbon Trail">
+                    <div class="product-image" style="background-color: #ccfbf1;">
+                        <span class="placeholder-text">Carbon Trail (Green)</span>
+                    </div>
+                    <h3 class="product-name">Carbon Trail Elite</h3>
+                    <p class="product-category">Outdoor</p>
+                    <p class="product-price">$180.00</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+
+                <!-- Product Card 5 -->
+                <div class="product-card" data-price="110.99" data-name="Urban Loafer">
+                    <div class="product-image" style="background-color: #fef9c3;">
+                        <span class="placeholder-text">Urban Loafer (Cream)</span>
+                    </div>
+                    <h3 class="product-name">The Urban Loafer</h3>
+                    <p class="product-category">Casual</p>
+                    <p class="product-price">$110.99</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+
+                <!-- Product Card 6 -->
+                <div class="product-card" data-price="155.25" data-name="ZeroG Boost">
+                    <div class="product-image" style="background-color: #dbeafe;">
+                        <span class="placeholder-text">ZeroG Boost (White)</span>
+                    </div>
+                    <h3 class="product-name">ZeroG Boost 2.0</h3>
+                    <p class="product-category">Max Comfort</p>
+                    <p class="product-price">$155.25</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 FootFlex. All Rights Reserved. | Designed for maximum performance.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
